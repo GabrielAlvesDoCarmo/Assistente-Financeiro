@@ -8,16 +8,12 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher_assistent"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_assistent_round"
+        android:roundIcon="@mipmap/ic_launcher_assistent_foreground"
         android:supportsRtl="true"
         android:theme="@style/Theme.AssistenteFinanceiro">
-        <activity
-            android:name=".ui.container.RootContainerActivity"
-            android:exported="true"/>
 
         <activity
-            android:name=".ui.feature_introduction.IntroductionContainerActivity"
-            android:theme="@style/Theme.Intro"
+            android:name=".ui.container.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

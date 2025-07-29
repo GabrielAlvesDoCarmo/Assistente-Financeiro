@@ -3,24 +3,17 @@
     <style name="Base.Theme.AssistenteFinanceiro" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="Theme.AssistenteFinanceiro" parent="Base.Theme.AssistenteFinanceiro" />
 
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <!-- Set the splash screen background, animated icon, and animation
-        duration. -->
         <item name="windowSplashScreenBackground">@android:color/white</item>
-
-        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
-             drawable. One of these is required. -->
-        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_splash</item>
-        <!-- Required for animated icons. -->
+        <item name="splashScreenIconSize">20dp</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_assistent</item>
         <item name="windowSplashScreenAnimationDuration">200</item>
-
-        <!-- Set the theme of the Activity that directly follows your splash
-        screen. This is required. -->
-        <item name="postSplashScreenTheme">@style/Theme.Intro</item>
+        <item name="postSplashScreenTheme">@style/Theme.AssistenteFinanceiro</item>
     </style>
 </resources>

@@ -65,6 +65,5 @@ dependencies {
     implementation(libs.dagger.hilt)
     ksp(libs.dagger.hilt.compiler)
 
-    //material intro
-    implementation(libs.material.intro)
+    implementation(libs.androidx.viewpager2)
 }

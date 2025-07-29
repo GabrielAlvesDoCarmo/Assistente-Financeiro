@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Assistente Financeiro</string>
+    <string name="register_intro">Cadastre-se</string>
+    <string name="is_register_login">Já tem conta? Fazer Login</string>
 </resources>
